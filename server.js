@@ -49,3 +49,7 @@ app.listen(PORT, () => {
     console.log(`Global Voyage Server active on port: ${PORT}`);
     console.log(`====================================================`);
 });
+app.get('/', (req, res) => {
+    res.send('Global Voyage Portal Backend is running!');
+});
+
