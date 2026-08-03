@@ -23,9 +23,9 @@ app.get('/go/:destinationSlug', (req, res) => {
     const slug = req.params.destinationSlug.toLowerCase();
     
     const affiliateMap = {
-        'phuket': 'https://tp.st',
-        'tokyo': 'https://tp.st',
-        'kyoto': 'https://tp.st'
+        'phuket': 'https://aviasales.tpk.lu/sktha0hU',
+        'tokyo': 'https://airhelp.tpk.lu/RzxasdVz',
+        'kyoto': 'https://aviasales.tpk.lu/sktha0hU'
     };
 
     const targetDestinationUrl = affiliateMap[slug];
